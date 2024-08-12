@@ -1,0 +1,16 @@
+.filterBlock {
+    max-width: 130px;
+    width: 100%;
+}
+
+.listButton {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titleBlock {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

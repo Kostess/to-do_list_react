@@ -1,0 +1,44 @@
+.todoItem {
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid #0883B8;
+    max-width: 744px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.taskCompleted {
+    background-color: #A6EDA0;
+}
+
+.taskNotCompleted {
+    background-color: #EBEBEB;
+}
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.flexGrowElement {
+    flex-grow: 1;
+}
+
+.titleTask {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.descriptionTask {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.countTask {
+    font-family: Arial, serif;
+    font-size: 4rem;
+    font-weight: bold;
+}

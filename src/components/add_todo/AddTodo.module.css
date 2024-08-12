@@ -1,0 +1,23 @@
+.addTaskBlock {
+    max-width: 360px;
+    width: 100%;
+}
+
+.titleBlock {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.formBlock {
+    margin-top: 20px;
+}
+
+.textareaBlock {
+    margin-top: 15px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

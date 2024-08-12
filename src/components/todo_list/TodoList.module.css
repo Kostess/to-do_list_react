@@ -1,0 +1,13 @@
+.todoList {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.titleBlock {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align-last: center;
+}

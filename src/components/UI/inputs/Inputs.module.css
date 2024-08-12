@@ -1,0 +1,20 @@
+.inputs {
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    background-color: #EFEEEE;
+    border-radius: 10px;
+    border: 1px solid #0883B8;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.textarea {
+    height: 120px;
+}
+
+.label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}

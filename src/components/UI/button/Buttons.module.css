@@ -1,0 +1,50 @@
+.buttonAddTodo {
+    padding: 12px 24px;
+    background-color: #0883B8;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color .3s;
+}
+
+.buttonAddTodo:hover {
+    background-color: #044C6A;
+}
+
+.buttonFilter {
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color .3s;
+    text-align: left;
+}
+
+.buttonFilter:hover {
+    color: #00577C;
+}
+
+.buttonTodoList {
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+.buttonOk {
+    background-color: #4CBC4A;
+}
+
+.buttonOk:hover {
+    background-color: #2A7328;
+}
+
+.displayNoneButton {
+    display: none;
+}
+
+.buttonDelete {
+    padding: 7px 7px 10px 7px;
+    background-color: #F53333;
+}
+
+.buttonDelete:hover {
+    background-color: #A31E1E;
+}

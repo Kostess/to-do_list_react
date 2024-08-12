@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+input, button, select, textarea{
+    outline: none;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.centring {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainBlock {
+    margin-top: 60px;
+}
+
+.top {
+    display: flex;
+    gap: 120px;
+}
+
+.bottom {
+    margin-top: 60px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.mainPart {
+    flex: 1;
+}
